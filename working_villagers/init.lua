@@ -1,5 +1,5 @@
 local init = os.clock()
-minetest.log("action", "["..minetest.get_current_modname().."] loading init") 
+--minetest.log("action", "["..minetest.get_current_modname().."] loading init") 
 
 working_villages={
 	modpath = minetest.get_modpath("working_villages"),
@@ -56,4 +56,4 @@ end
 
 --ready
 local time_to_load= os.clock() - init
-log.action("loaded init in %.4f s", time_to_load)
+--log.action("loaded init in %.4f s", time_to_load)

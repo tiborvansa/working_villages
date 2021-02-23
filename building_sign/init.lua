@@ -1,5 +1,5 @@
 local init = os.clock()
-minetest.log("action", "["..minetest.get_current_modname().."] loading...")
+--minetest.log("action", "["..minetest.get_current_modname().."] loading...")
 
 local modpath = minetest.get_modpath("building_sign")
 building_sign = {
@@ -91,4 +91,4 @@ minetest.register_node("building_sign:building_marker", {
 })
 
 local time_to_load= os.clock() - init
-log.action("loaded init in %.4f s", time_to_load)
+--log.action("loaded init in %.4f s", time_to_load)
